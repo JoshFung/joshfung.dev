@@ -1,52 +1,4 @@
-/* Write your global styles here, in PostCSS syntax */
-
-/* Light weight */
-@font-face {
-	font-family: 'NeueMontreal';
-	src: url('./fonts/NeueMontreal-Light.otf');
-	font-weight: 300;
-	font-style: normal;
-}
-
-/* Regular weight */
-@font-face {
-	font-family: 'NeueMontreal';
-	src: url('/.fonts/NeueMontreal-Regular.otf');
-	font-weight: 400;
-	font-style: normal;
-}
-
-/* Medium weight */
-@font-face {
-	font-family: 'NeueMontreal';
-	src: url('./fonts/NeueMontreal-Medium.otf') format('opentype');
-	font-weight: 500;
-	font-style: normal;
-}
-
-/* Bold weight */
-@font-face {
-	font-family: 'NeueMontreal';
-	src: url('./fonts/NeueMontreal-Bold.otf');
-	font-weight: 800;
-	font-style: normal;
-}
-
-/* Italic style */
-@font-face {
-	font-family: 'NeueMontreal';
-	src: url('./fonts/NeueMontreal-Italic.otf');
-	font-weight: 500;
-	font-style: italic;
-}
-
-/* Bold Italic style */
-@font-face {
-	font-family: 'NeueMontreal';
-	src: url('./fonts/NeueMontreal-BoldItalic.otf');
-	font-weight: 800;
-	font-style: italic;
-}
+@import './fonts/fonts.css';
 
 /* Continue for other variations as needed */
 
@@ -55,7 +7,8 @@
 @tailwind utilities;
 
 html {
-	font-family: 'NeueMontreal', 'Helvetica Neue', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-		'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
+	font-family: 'Switzer var', 'NeueMontreal', 'Helvetica Neue', -apple-system, BlinkMacSystemFont,
+		'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', sans-serif;
 	font-weight: 400;
+	font-size: 28px;
 }
