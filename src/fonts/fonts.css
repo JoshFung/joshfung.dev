@@ -1,0 +1,27 @@
+/* STARDOM */
+
+@font-face {
+	font-family: 'Stardom';
+	src: url('./Stardom-Regular.otf') format('opentype');
+	font-weight: 400;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* SWITZER */
+
+@font-face {
+	font-family: 'Switzer var';
+	src: url('./Switzer-Variable.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: 'Switzer var';
+	src: url('./Switzer-VariableItalic.ttf') format('truetype');
+	font-weight: 100 900;
+	font-style: italic;
+	font-display: swap;
+}
