@@ -1,6 +1,4 @@
 <script lang="ts">
-	import JoshFungResume from '$lib/assets/JoshFungResume.pdf';
-
 	interface LinkItem {
 		text: string;
 		clickHandler: () => void;
@@ -18,7 +16,7 @@
 
 	const handleResumeClick = () => {
 		console.log('Clicked resume');
-		// const filePath = '$lib/assets/JoshFungResume.pdf'; // Only works for hosted online, for local use: public/Joshua Fung Resume ... .pdf
+		const JoshFungResume = '/JoshFungResume.pdf';
 		window.open(JoshFungResume, '_blank');
 	};
 
