@@ -1,5 +1,5 @@
 <script lang="ts">
-	const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
+	import JoshFungResume from '$lib/assets/JoshFungResume.pdf';
 
 	interface LinkItem {
 		text: string;
@@ -18,8 +18,8 @@
 
 	const handleResumeClick = () => {
 		console.log('Clicked resume');
-		const filePath = '/JoshFungResume.pdf'; // Only works for hosted online, for local use: public/Joshua Fung Resume ... .pdf
-		window.open(filePath, '_blank');
+		// const filePath = '$lib/assets/JoshFungResume.pdf'; // Only works for hosted online, for local use: public/Joshua Fung Resume ... .pdf
+		window.open(JoshFungResume, '_blank');
 	};
 
 	const handleLinkedInClick = () => {
