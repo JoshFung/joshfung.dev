@@ -33,9 +33,14 @@
 	];
 </script>
 
-<div class="flex flex-col">
+<div
+	class="flex flex-col flex-1 justify-evenly items-start px-4 xs:px-6 sm:px-8 pt-4 xs:pt-6 sm:pt-8"
+>
 	{#each items as item (item.text)}
-		<button on:click={item.clickHandler} class="text-2xl text-isabelline font-switzer text-left">
+		<button
+			on:click={item.clickHandler}
+			class="text-isabelline font-switzer font-medium text-lg xs:text-2xl sm:text-3xl"
+		>
 			{item.text}
 		</button>
 	{/each}
