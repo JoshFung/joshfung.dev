@@ -33,9 +33,9 @@
 	];
 </script>
 
-<div class="flex flex-col">
+<div class="flex flex-col flex-1 p-9 justify-between items-start">
 	{#each items as item (item.text)}
-		<button on:click={item.clickHandler} class="text-2xl text-isabelline font-switzer text-left">
+		<button on:click={item.clickHandler} class="text-2xl text-isabelline font-switzer font-medium">
 			{item.text}
 		</button>
 	{/each}
