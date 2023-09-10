@@ -1,5 +1,5 @@
 <script lang="ts">
-	const isLocalhost = window.location.hostname === 'localhost';
+	const isLocalhost = location.hostname === 'localhost' || location.hostname === '127.0.0.1';
 
 	interface LinkItem {
 		text: string;
