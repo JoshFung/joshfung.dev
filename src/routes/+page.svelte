@@ -6,18 +6,23 @@
 
 	const handleEmailClick = () => {
 		console.log('Clicked email');
+		window.location.href = 'mailto:joshuagyfung@gmail.com';
 	};
 
 	const handleGithubClick = () => {
-		console.log('Clicked github');
+		console.log('Clicked Github');
+		window.open('https://github.com/JoshFung', '_blank');
 	};
 
 	const handleResumeClick = () => {
 		console.log('Clicked resume');
+		const resume = '/public/Joshua Fung Resume September 2023.pdf';
+		window.open(resume, '_blank');
 	};
 
 	const handleLinkedInClick = () => {
-		console.log('Clicked linkedin');
+		console.log('Clicked LinkedIn');
+		window.open('https://linkedin.com/in/joshfung/', '_blank');
 	};
 
 	let items: LinkItem[] = [
