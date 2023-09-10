@@ -7,8 +7,5 @@ export default defineConfig({
 		fs: {
 			allow: [searchForWorkspaceRoot(process.cwd()), '/public']
 		}
-	},
-	build: {
-		outDir: './build'
 	}
 });
