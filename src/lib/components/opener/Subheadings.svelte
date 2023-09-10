@@ -1,4 +1,6 @@
 <script lang="ts">
+	const isLocalhost = window.location.hostname === 'localhost';
+
 	interface LinkItem {
 		text: string;
 		clickHandler: () => void;
@@ -16,8 +18,10 @@
 
 	const handleResumeClick = () => {
 		console.log('Clicked resume');
-		const resume = '/public/Joshua Fung Resume September 2023.pdf';
-		window.open(resume, '_blank');
+		const filePath = isLocalhost
+			? 'public/Joshua Fung Resume September 2023.pdf'
+			: 'Joshua Fung Resume September 2023.pdf';
+		window.open(filePath, '_blank');
 	};
 
 	const handleLinkedInClick = () => {
