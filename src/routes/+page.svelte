@@ -2,7 +2,7 @@
 	import { Opener } from '$lib/index';
 </script>
 
-<main>
+<main class="w-screen h-screen">
 	<Opener />
 </main>
 

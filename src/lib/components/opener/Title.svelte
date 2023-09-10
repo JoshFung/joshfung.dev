@@ -1,9 +1,9 @@
 <script lang="ts">
 </script>
 
-<div class="mb-6">
-	<h1 class="text-8xl text-ivory font-stardom">Joshua</h1>
-	<h1 class="text-8xl text-ivory font-stardom">Fung</h1>
+<div class="">
+	<h1 class="text-ivory font-stardom text-4xl xs:text-5xl sm:text-7xl">Joshua</h1>
+	<h1 class="text-ivory font-stardom text-4xl xs:text-5xl sm:text-7xl">Fung</h1>
 </div>
 
 <style>
