@@ -18,9 +18,7 @@
 
 	const handleResumeClick = () => {
 		console.log('Clicked resume');
-		const filePath = isLocalhost
-			? 'public/Joshua Fung Resume September 2023.pdf'
-			: 'Joshua Fung Resume September 2023.pdf';
+		const filePath = 'Joshua Fung Resume September 2023.pdf'; // Only works for hosted online, for local use: public/Joshua Fung Resume ... .pdf
 		window.open(filePath, '_blank');
 	};
 
