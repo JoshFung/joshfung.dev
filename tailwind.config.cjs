@@ -13,8 +13,9 @@ const config = {
 		},
 		extend: {
 			fontFamily: {
-				stardom: ['Stardom', 'serif'],
-				switzer: ['Switzer var', 'sans-serif']
+				stardom: ['Stardom', 'display'],
+				switzer: ['Switzer var', 'sans-serif'],
+				jakarta: ['Jakarta var', 'sans-serif']
 			},
 			colors: {
 				'raisin-black': '#252323',

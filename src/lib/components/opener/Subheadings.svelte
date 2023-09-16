@@ -37,7 +37,7 @@
 	{#each items as item, i (item.text)}
 		<button
 			on:click={item.clickHandler}
-			class={`text-isabelline font-switzer font-regular justify-self-end sm:justify-self-center text-base sm:text-3xl `}
+			class={`text-isabelline font-jakarta font-regular justify-self-end sm:justify-self-center text-base sm:text-2xl `}
 		>
 			{item.text}
 		</button>
