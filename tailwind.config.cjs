@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config}*/
 
 const defaultTheme = require('tailwindcss/defaultTheme');
+const plugin = require('tailwindcss/plugin');
 
 const config = {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
@@ -27,7 +28,9 @@ const config = {
 				khaki: '#A99985',
 				'rich-black': '#0D1B2A',
 				'oxford-blue': '#1B263B',
-				'yinmn-blue': '#415A77'
+				'yinmn-blue': '#415A77',
+				maroon: '#520f00',
+				'black-blue': '#0d1b2a'
 			}
 		}
 	},
