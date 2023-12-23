@@ -12,6 +12,11 @@ const config = {
 			xs: '414px',
 			...defaultTheme.screens
 		},
+		fontSize: {
+			'3xs': '0.375rem',
+			'2xs': '0.5rem',
+			...defaultTheme.fontSize
+		},
 		extend: {
 			fontFamily: {
 				stardom: ['Stardom', 'display'],

@@ -43,6 +43,6 @@ Just a simple personal site to display contact information :^)
 
 ## TODO:
 
-- [ ] Change icon
+- [x] Change icon
 - [ ] Add projects section
 - [ ] Add personal info section

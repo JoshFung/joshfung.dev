@@ -2,7 +2,7 @@
 	import { Title, Subheadings } from './index';
 </script>
 
-<div class="w-full h-full flex flex-col justify-between pt-2 px-2 xs:px-3 sm:px-8">
+<div class="w-full h-full flex flex-col justify-between p-4 xs:px-3 sm:px-8">
 	<Title />
 	<Subheadings />
 </div>
