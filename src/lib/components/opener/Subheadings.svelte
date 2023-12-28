@@ -33,11 +33,22 @@
 	];
 </script>
 
-<div class="grid flex-1 grid-cols-4 align-center">
+<!-- <div class="grid flex-1 grid-cols-4 align-center">
 	{#each items as item, i (item.text)}
 		<button
 			on:click={item.clickHandler}
 			class={`text-isabelline font-jakarta font-regular justify-self-end sm:justify-self-center text-base sm:text-2xl `}
+		>
+			{item.text}
+		</button>
+	{/each}
+</div> -->
+
+<div class="flex flex-row justify-between">
+	{#each items as item, i (item.text)}
+		<button
+			on:click={item.clickHandler}
+			class={`text-isabelline font-jakarta font-regular justify-self-end sm:justify-self-center text-2xs sm:text-2xl `}
 		>
 			{item.text}
 		</button>
