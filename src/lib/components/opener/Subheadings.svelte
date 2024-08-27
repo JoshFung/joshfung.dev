@@ -16,7 +16,7 @@
 
 	const handleResumeClick = () => {
 		console.log('Clicked resume');
-		const JoshFungResume = '/JoshFungResume.pdf';
+		const JoshFungResume = '/JoshuaFungResume.pdf';
 		window.open(JoshFungResume, '_blank');
 	};
 
