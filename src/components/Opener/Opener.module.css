@@ -1,0 +1,10 @@
+.openerBg {
+  background: linear-gradient(
+      13deg,
+      rgba(55, 3, 1, 0.975) 0%,
+      rgba(8, 23, 38, 0.975) 14%,
+      rgba(8, 23, 38, 0.975) 66%,
+      rgba(55, 3, 1, 0.975) 100%
+    ),
+    url("data:image/svg+xml,...");
+}
